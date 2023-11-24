@@ -21,7 +21,7 @@ public class ItemSorter {
                 }
             }
         }
-        System.out.println(this.items[0].getName() + " " + this.items[1].getName() + " " + this.items[2].getName());
+        //System.out.println(this.items[0].getPrice() + " " + this.items[1].getPrice() + " " + this.items[2].getPrice());
         return this.items;
     }
 }

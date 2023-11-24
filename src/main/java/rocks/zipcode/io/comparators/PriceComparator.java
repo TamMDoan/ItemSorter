@@ -11,8 +11,6 @@ import java.util.Objects;
 public class PriceComparator implements Comparator<Item> {
     @Override
     public int compare(Item o1, Item o2) {
-        System.out.println(o1.getPrice());
-        System.out.println(o2.getPrice());
         if(o1.getPrice() == o2.getPrice()){
             return 0;
         }
